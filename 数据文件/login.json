@@ -1,0 +1,17 @@
+{
+  "test_login_01": {
+    "username":"",
+    "password":"davieyang",
+    "assert_text": "请输入帐号"
+  },
+  "test_login_02": {
+    "username":"davieyang",
+    "password":"",
+    "assert_text": "请输入密码"
+  },
+  "test_login_03":{
+    "username":"error",
+    "password":"error",
+    "assert_text": "帐号或密码错误"
+  }
+}
